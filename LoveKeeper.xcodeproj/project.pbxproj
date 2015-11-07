@@ -7,15 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D26B3B121BEE5EA800CA4510 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26B3B111BEE5EA800CA4510 /* HealthKit.framework */; };
+		D26B3B141BEE5EC600CA4510 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26B3B131BEE5EC600CA4510 /* HealthKit.framework */; };
 		D272AD921BEDF2740051D16D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272AD911BEDF2740051D16D /* AppDelegate.swift */; };
 		D272AD941BEDF2740051D16D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272AD931BEDF2740051D16D /* ViewController.swift */; };
 		D272AD971BEDF2740051D16D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D272AD951BEDF2740051D16D /* Main.storyboard */; };
 		D272AD9A1BEDF2740051D16D /* LoveKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D272AD981BEDF2740051D16D /* LoveKeeper.xcdatamodeld */; };
 		D272AD9C1BEDF2740051D16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D272AD9B1BEDF2740051D16D /* Assets.xcassets */; };
 		D272AD9F1BEDF2740051D16D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D272AD9D1BEDF2740051D16D /* LaunchScreen.storyboard */; };
+		D272ADAC1BEDF38A0051D16D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D272ADAA1BEDF38A0051D16D /* Interface.storyboard */; };
+		D272ADAE1BEDF38A0051D16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D272ADAD1BEDF38A0051D16D /* Assets.xcassets */; };
+		D272ADB51BEDF38A0051D16D /* LoveKeeperWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D272ADB41BEDF38A0051D16D /* LoveKeeperWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D272ADBC1BEDF38A0051D16D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272ADBB1BEDF38A0051D16D /* InterfaceController.swift */; };
+		D272ADBE1BEDF38A0051D16D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272ADBD1BEDF38A0051D16D /* ExtensionDelegate.swift */; };
+		D272ADC01BEDF38A0051D16D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272ADBF1BEDF38A0051D16D /* NotificationController.swift */; };
+		D272ADC21BEDF38A0051D16D /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272ADC11BEDF38A0051D16D /* GlanceController.swift */; };
+		D272ADC41BEDF38A0051D16D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272ADC31BEDF38A0051D16D /* ComplicationController.swift */; };
+		D272ADC61BEDF38A0051D16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D272ADC51BEDF38A0051D16D /* Assets.xcassets */; };
+		D272ADCA1BEDF38A0051D16D /* LoveKeeperWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D272ADA81BEDF38A0051D16D /* LoveKeeperWatch.app */; };
+		D2A1DE2B1BEE7A7D0092C68B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A1DE2A1BEE7A7D0092C68B /* Helper.swift */; };
+		D2A1DE2E1BEE83DE0092C68B /* makeLove.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A1DE2D1BEE83DE0092C68B /* makeLove.png */; };
+		D2A1DE2F1BEE83DE0092C68B /* makeLove.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A1DE2D1BEE83DE0092C68B /* makeLove.png */; };
+		D2A1DE301BEE83DE0092C68B /* makeLove.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A1DE2D1BEE83DE0092C68B /* makeLove.png */; };
+		F1F71D1E7C64B732A9C8A8BF /* Pods_LoveKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF41CF2A834016BB64EDE183 /* Pods_LoveKeeper.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D272ADB61BEDF38A0051D16D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D272AD861BEDF2740051D16D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D272ADB31BEDF38A0051D16D;
+			remoteInfo = "LoveKeeperWatch Extension";
+		};
+		D272ADC81BEDF38A0051D16D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D272AD861BEDF2740051D16D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D272ADA71BEDF38A0051D16D;
+			remoteInfo = LoveKeeperWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D272ADD01BEDF38A0051D16D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D272ADB51BEDF38A0051D16D /* LoveKeeperWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D272ADD21BEDF38A0051D16D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D272ADCA1BEDF38A0051D16D /* LoveKeeperWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5AF01747E4B04B3FE8434909 /* Pods-LoveKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveKeeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveKeeper/Pods-LoveKeeper.release.xcconfig"; sourceTree = "<group>"; };
+		D26B3B111BEE5EA800CA4510 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		D26B3B131BEE5EC600CA4510 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		D272AD8E1BEDF2740051D16D /* LoveKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D272AD911BEDF2740051D16D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D272AD931BEDF2740051D16D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +86,26 @@
 		D272AD9B1BEDF2740051D16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D272AD9E1BEDF2740051D16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D272ADA01BEDF2740051D16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D272ADA81BEDF38A0051D16D /* LoveKeeperWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveKeeperWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D272ADAB1BEDF38A0051D16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D272ADAD1BEDF38A0051D16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D272ADAF1BEDF38A0051D16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D272ADB41BEDF38A0051D16D /* LoveKeeperWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LoveKeeperWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D272ADBA1BEDF38A0051D16D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D272ADBB1BEDF38A0051D16D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D272ADBD1BEDF38A0051D16D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D272ADBF1BEDF38A0051D16D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D272ADC11BEDF38A0051D16D /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		D272ADC31BEDF38A0051D16D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D272ADC51BEDF38A0051D16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D272ADC71BEDF38A0051D16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D272ADD31BEDFF1F0051D16D /* LoveKeeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LoveKeeper.entitlements; sourceTree = "<group>"; };
+		D272ADD41BEE16030051D16D /* LoveKeeperWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LoveKeeperWatch.entitlements; sourceTree = "<group>"; };
+		D272ADD51BEE16180051D16D /* LoveKeeperWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "LoveKeeperWatch Extension.entitlements"; sourceTree = "<group>"; };
+		D2A1DE2A1BEE7A7D0092C68B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D2A1DE2D1BEE83DE0092C68B /* makeLove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = makeLove.png; path = ../../../Downloads/loveKeeper/makeLove.png; sourceTree = "<group>"; };
+		E861C30CB5B907E456709BF5 /* Pods-LoveKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveKeeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveKeeper/Pods-LoveKeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		FF41CF2A834016BB64EDE183 /* Pods_LoveKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +113,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26B3B141BEE5EC600CA4510 /* HealthKit.framework in Frameworks */,
+				F1F71D1E7C64B732A9C8A8BF /* Pods_LoveKeeper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D272ADB11BEDF38A0051D16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26B3B121BEE5EA800CA4510 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A803AD590B688C6C690136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF41CF2A834016BB64EDE183 /* Pods_LoveKeeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F7E5003D2772B8593731BD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E861C30CB5B907E456709BF5 /* Pods-LoveKeeper.debug.xcconfig */,
+				5AF01747E4B04B3FE8434909 /* Pods-LoveKeeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D272AD851BEDF2740051D16D = {
 			isa = PBXGroup;
 			children = (
+				D26B3B131BEE5EC600CA4510 /* HealthKit.framework */,
+				D26B3B111BEE5EA800CA4510 /* HealthKit.framework */,
+				D2A1DE2C1BEE83BB0092C68B /* Resources */,
 				D272AD901BEDF2740051D16D /* LoveKeeper */,
+				D272ADA91BEDF38A0051D16D /* LoveKeeperWatch */,
+				D272ADB81BEDF38A0051D16D /* LoveKeeperWatch Extension */,
 				D272AD8F1BEDF2740051D16D /* Products */,
+				9F7E5003D2772B8593731BD5 /* Pods */,
+				04A803AD590B688C6C690136 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				D272AD8E1BEDF2740051D16D /* LoveKeeper.app */,
+				D272ADA81BEDF38A0051D16D /* LoveKeeperWatch.app */,
+				D272ADB41BEDF38A0051D16D /* LoveKeeperWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,8 +174,10 @@
 		D272AD901BEDF2740051D16D /* LoveKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				D272ADD31BEDFF1F0051D16D /* LoveKeeper.entitlements */,
 				D272AD911BEDF2740051D16D /* AppDelegate.swift */,
 				D272AD931BEDF2740051D16D /* ViewController.swift */,
+				D2A1DE2A1BEE7A7D0092C68B /* Helper.swift */,
 				D272AD951BEDF2740051D16D /* Main.storyboard */,
 				D272AD9B1BEDF2740051D16D /* Assets.xcassets */,
 				D272AD9D1BEDF2740051D16D /* LaunchScreen.storyboard */,
@@ -67,6 +187,49 @@
 			path = LoveKeeper;
 			sourceTree = "<group>";
 		};
+		D272ADA91BEDF38A0051D16D /* LoveKeeperWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D272ADD41BEE16030051D16D /* LoveKeeperWatch.entitlements */,
+				D272ADAA1BEDF38A0051D16D /* Interface.storyboard */,
+				D272ADAD1BEDF38A0051D16D /* Assets.xcassets */,
+				D272ADAF1BEDF38A0051D16D /* Info.plist */,
+			);
+			path = LoveKeeperWatch;
+			sourceTree = "<group>";
+		};
+		D272ADB81BEDF38A0051D16D /* LoveKeeperWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D272ADD51BEE16180051D16D /* LoveKeeperWatch Extension.entitlements */,
+				D272ADBB1BEDF38A0051D16D /* InterfaceController.swift */,
+				D272ADBD1BEDF38A0051D16D /* ExtensionDelegate.swift */,
+				D272ADBF1BEDF38A0051D16D /* NotificationController.swift */,
+				D272ADC11BEDF38A0051D16D /* GlanceController.swift */,
+				D272ADC31BEDF38A0051D16D /* ComplicationController.swift */,
+				D272ADC51BEDF38A0051D16D /* Assets.xcassets */,
+				D272ADC71BEDF38A0051D16D /* Info.plist */,
+				D272ADB91BEDF38A0051D16D /* Supporting Files */,
+			);
+			path = "LoveKeeperWatch Extension";
+			sourceTree = "<group>";
+		};
+		D272ADB91BEDF38A0051D16D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D272ADBA1BEDF38A0051D16D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2A1DE2C1BEE83BB0092C68B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2A1DE2D1BEE83DE0092C68B /* makeLove.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,18 +237,57 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D272ADA31BEDF2740051D16D /* Build configuration list for PBXNativeTarget "LoveKeeper" */;
 			buildPhases = (
+				B415067AE2F3FC8B7925FAB6 /* Check Pods Manifest.lock */,
 				D272AD8A1BEDF2740051D16D /* Sources */,
 				D272AD8B1BEDF2740051D16D /* Frameworks */,
 				D272AD8C1BEDF2740051D16D /* Resources */,
+				D272ADD21BEDF38A0051D16D /* Embed Watch Content */,
+				FE0EEB7EC0BAC506B7EF0FD5 /* Embed Pods Frameworks */,
+				352B06C69B324400A53BED94 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D272ADC91BEDF38A0051D16D /* PBXTargetDependency */,
 			);
 			name = LoveKeeper;
 			productName = LoveKeeper;
 			productReference = D272AD8E1BEDF2740051D16D /* LoveKeeper.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D272ADA71BEDF38A0051D16D /* LoveKeeperWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D272ADD11BEDF38A0051D16D /* Build configuration list for PBXNativeTarget "LoveKeeperWatch" */;
+			buildPhases = (
+				D272ADA61BEDF38A0051D16D /* Resources */,
+				D272ADD01BEDF38A0051D16D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D272ADB71BEDF38A0051D16D /* PBXTargetDependency */,
+			);
+			name = LoveKeeperWatch;
+			productName = LoveKeeperWatch;
+			productReference = D272ADA81BEDF38A0051D16D /* LoveKeeperWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D272ADB31BEDF38A0051D16D /* LoveKeeperWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D272ADCF1BEDF38A0051D16D /* Build configuration list for PBXNativeTarget "LoveKeeperWatch Extension" */;
+			buildPhases = (
+				D272ADB01BEDF38A0051D16D /* Sources */,
+				D272ADB11BEDF38A0051D16D /* Frameworks */,
+				D272ADB21BEDF38A0051D16D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoveKeeperWatch Extension";
+			productName = "LoveKeeperWatch Extension";
+			productReference = D272ADB41BEDF38A0051D16D /* LoveKeeperWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +300,36 @@
 				TargetAttributes = {
 					D272AD8D1BEDF2740051D16D = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = G44VYF3687;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					D272ADA71BEDF38A0051D16D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = G44VYF3687;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					D272ADB31BEDF38A0051D16D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = G44VYF3687;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -115,6 +347,8 @@
 			projectRoot = "";
 			targets = (
 				D272AD8D1BEDF2740051D16D /* LoveKeeper */,
+				D272ADA71BEDF38A0051D16D /* LoveKeeperWatch */,
+				D272ADB31BEDF38A0051D16D /* LoveKeeperWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,10 +361,78 @@
 				D272AD9F1BEDF2740051D16D /* LaunchScreen.storyboard in Resources */,
 				D272AD9C1BEDF2740051D16D /* Assets.xcassets in Resources */,
 				D272AD971BEDF2740051D16D /* Main.storyboard in Resources */,
+				D2A1DE2E1BEE83DE0092C68B /* makeLove.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D272ADA61BEDF38A0051D16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D272ADAE1BEDF38A0051D16D /* Assets.xcassets in Resources */,
+				D2A1DE2F1BEE83DE0092C68B /* makeLove.png in Resources */,
+				D272ADAC1BEDF38A0051D16D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D272ADB21BEDF38A0051D16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D272ADC61BEDF38A0051D16D /* Assets.xcassets in Resources */,
+				D2A1DE301BEE83DE0092C68B /* makeLove.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		352B06C69B324400A53BED94 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveKeeper/Pods-LoveKeeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B415067AE2F3FC8B7925FAB6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0EEB7EC0BAC506B7EF0FD5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveKeeper/Pods-LoveKeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D272AD8A1BEDF2740051D16D /* Sources */ = {
@@ -140,10 +442,36 @@
 				D272AD941BEDF2740051D16D /* ViewController.swift in Sources */,
 				D272AD921BEDF2740051D16D /* AppDelegate.swift in Sources */,
 				D272AD9A1BEDF2740051D16D /* LoveKeeper.xcdatamodeld in Sources */,
+				D2A1DE2B1BEE7A7D0092C68B /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D272ADB01BEDF38A0051D16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D272ADC01BEDF38A0051D16D /* NotificationController.swift in Sources */,
+				D272ADBE1BEDF38A0051D16D /* ExtensionDelegate.swift in Sources */,
+				D272ADC41BEDF38A0051D16D /* ComplicationController.swift in Sources */,
+				D272ADBC1BEDF38A0051D16D /* InterfaceController.swift in Sources */,
+				D272ADC21BEDF38A0051D16D /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D272ADB71BEDF38A0051D16D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D272ADB31BEDF38A0051D16D /* LoveKeeperWatch Extension */;
+			targetProxy = D272ADB61BEDF38A0051D16D /* PBXContainerItemProxy */;
+		};
+		D272ADC91BEDF38A0051D16D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D272ADA71BEDF38A0051D16D /* LoveKeeperWatch */;
+			targetProxy = D272ADC81BEDF38A0051D16D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D272AD951BEDF2740051D16D /* Main.storyboard */ = {
@@ -160,6 +488,14 @@
 				D272AD9E1BEDF2740051D16D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D272ADAA1BEDF38A0051D16D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D272ADAB1BEDF38A0051D16D /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,23 +586,115 @@
 		};
 		D272ADA41BEDF2740051D16D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E861C30CB5B907E456709BF5 /* Pods-LoveKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoveKeeper/LoveKeeper.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LoveKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LoveKeepers.LoveKeeper;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.hackaton.lovekeeper.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D272ADA51BEDF2740051D16D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF01747E4B04B3FE8434909 /* Pods-LoveKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoveKeeper/LoveKeeper.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LoveKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LoveKeepers.LoveKeeper;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.hackaton.lovekeeper.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D272ADCB1BEDF38A0051D16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoveKeeperWatch/LoveKeeperWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = LoveKeeperWatch_Extension;
+				INFOPLIST_FILE = LoveKeeperWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.hackaton.lovekeeper.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D272ADCC1BEDF38A0051D16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoveKeeperWatch/LoveKeeperWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = LoveKeeperWatch_Extension;
+				INFOPLIST_FILE = LoveKeeperWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.hackaton.lovekeeper.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D272ADCD1BEDF38A0051D16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "LoveKeeperWatch Extension/LoveKeeperWatch Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "LoveKeeperWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.hackaton.lovekeeper.app.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D272ADCE1BEDF38A0051D16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "LoveKeeperWatch Extension/LoveKeeperWatch Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "LoveKeeperWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.hackaton.lovekeeper.app.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -289,6 +717,25 @@
 				D272ADA51BEDF2740051D16D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D272ADCF1BEDF38A0051D16D /* Build configuration list for PBXNativeTarget "LoveKeeperWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D272ADCD1BEDF38A0051D16D /* Debug */,
+				D272ADCE1BEDF38A0051D16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D272ADD11BEDF38A0051D16D /* Build configuration list for PBXNativeTarget "LoveKeeperWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D272ADCB1BEDF38A0051D16D /* Debug */,
+				D272ADCC1BEDF38A0051D16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

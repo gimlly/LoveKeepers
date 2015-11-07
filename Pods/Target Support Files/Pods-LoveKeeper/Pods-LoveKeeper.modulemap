@@ -1,0 +1,6 @@
+framework module Pods_LoveKeeper {
+  umbrella header "Pods-LoveKeeper-umbrella.h"
+
+  export *
+  module * { export * }
+}

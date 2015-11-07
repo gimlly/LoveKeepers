@@ -8,15 +8,35 @@
 
 import UIKit
 import CoreData
+import HealthKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    let healthStore = HKHealthStore()
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        guard HKHealthStore.isHealthDataAvailable() == true else {
+            return true
+        }
+        
+        guard let quantityType = HKQuantityType.quantityTypeForIdentifier(HKQuantityTypeIdentifierHeartRate) else {
+            // displayNotAllowed()
+            return true
+        }
+        
+        let dataTypes = Set(arrayLiteral: quantityType)
+        
+        healthStore.requestAuthorizationToShareTypes(nil, readTypes: dataTypes) { (success, error) -> Void in
+            if success == false {
+                //  self.displayNotAllowed()
+            }
+        }
         return true
     }
 

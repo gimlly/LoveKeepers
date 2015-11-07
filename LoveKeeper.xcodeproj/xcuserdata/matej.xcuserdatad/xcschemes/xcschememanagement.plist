@@ -4,15 +4,40 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Complication - LoveKeeperWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Glance - LoveKeeperWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>LoveKeeper.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LoveKeeperWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Notification - LoveKeeperWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>D272AD8D1BEDF2740051D16D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D272ADA71BEDF38A0051D16D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
